@@ -21,6 +21,11 @@
     "id": "gravitee",
     "name": "Gravitee API Management",
     "description": "Manage Your API Keys",
+    "links": {
+      "github": "https://github.com/gravitee-io/gravitee-api-management",
+      "website": "https://www.gravitee.io",
+      "docs": "https://documentation.gravitee.io"
+    },
     "tags": [
       "api"
     ]
