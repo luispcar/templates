@@ -1,0 +1,27 @@
+[variables]
+main_domain = "${domain}"
+
+[[config.domains]]
+serviceName = "portal_ui"
+port = 8_080
+host = "portal-${main_domain}"
+
+[[config.domains]]
+serviceName = "management_ui"
+port = 8_080
+host = "management-${main_domain}"
+
+[[config.domains]]
+serviceName = "gateway"
+port = 8_082
+host = "${main_domain}"
+
+[[config.domains]]
+serviceName = "management_api"
+port = 8_083
+host = "apim-${main_domain}"
+
+[config.env]
+MGMT_API_URL = "http://management-${main_domain}/management/"
+PORTAL_API_URL = "http://portal-${main_domain}/portal"
+

@@ -16,5 +16,13 @@
       "server-management",
       "docker"
     ]
+  },
+  {
+    "id": "gravitee",
+    "name": "Gravitee API Management",
+    "description": "Manage Your API Keys",
+    "tags": [
+      "api"
+    ]
   }
 ]
